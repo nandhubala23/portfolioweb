@@ -34,31 +34,10 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
       description: "This Power BI project analyzes sales and profitability data for Super Mart’s grocery division. The dashboard provides a comprehensive view of key performance metrics, including total profit, total orders, total sales, and average sales per order. ",
       tech: "Pandas, Numpy, Python, SQL ,Scikit-Learn, Matplotlib-pyplot,Power BI",
       image: "p1.png",
-      link: "#"
+      link: "https://github.com/nandhubala23/Super-mart-Grocery-Sales"
     }
   ];
   
-//   function displayProjects() {
-//     const container = document.getElementById("projects-container");
-  
-//     projects.forEach(project => {
-//       const card = document.createElement("div");
-//       card.className = "project-card";
-//       card.innerHTML = `
-//         <img src="${project.image}" alt="${project.title}" />
-//         <div class="project-info">
-//           <h3>${project.title}</h3>
-//           <p>${project.description}</p>
-//           <p><strong>Tech Used:</strong> ${project.tech}</p>
-//           <a href="${project.link}" target="_blank" class="project-link">View Project</a>
-//         </div>
-//       `;
-//       container.appendChild(card);
-//     });
-//   }
-  
-//   // Call the function after DOM is ready
-//   document.addEventListener("DOMContentLoaded", displayProjects);
     
 function displayProjects() {
     const container = document.getElementById("projects-container");
